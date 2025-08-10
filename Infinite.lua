@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohello687/SoleHubBronx3/main/thebronx3.txt"))()
+    local Games = loadstring(game:HttpGet("https://scripts.13block.workers.dev/raw/e8ca7f17a04149c1.lua"))()
 
 
     for PlaceID, Execute in pairs(Games) do
